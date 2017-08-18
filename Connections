@@ -1,0 +1,10 @@
+Connections between the CC1101 and the ESP8266 :
+CC11xx pins    ESP pins Description
+*  1 - VCC        VCC        3v3
+*  2 - GND        GND        Ground
+*  3 - MOSI       13=D7      Data input to CC11xx
+*  4 - SCK        14=D5      Clock pin
+*  5 - MISO/GDO1  12=D6      Data output from CC11xx / serial clock from CC11xx
+*  6 - GDO0       ?          Serial data to CC11xx
+*  7 - CSN        15=D8      Chip select / (SPI_SS)
+*  8 - GDO2       ?          output as a symbol of receiving or sending data
